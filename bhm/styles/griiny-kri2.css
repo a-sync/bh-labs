@@ -1,0 +1,177 @@
+@charset "iso-8859-2";
+/**
+ * Griiny CSS for bitHUmen
+ * @version 1.1
+ * @author KRi2
+ */
+
+
+/* ajanlott bongeszo ff3 */
+
+/*GLOBAL*/
+
+/*html{min-height:101%;}*/
+body{margin:0;padding:0;}
+img{border:0pt;}
+form{margin:0;padding:0;}
+a:focus{-moz-outline-style: none;}
+input, textarea, select{vertical-align:middle;}
+select{margin:0;padding:0;}
+#logoholderdiv img{display:none;}
+.clr{clear:both;}
+.outer{border:none;}
+.mainouter{border:none;}
+#menu table{border:none;}
+#main table{border:none;}
+#main table td{border:none;}
+#main table .embedded table{border:none;}
+#main table .embedded table td{border:none;}
+#main table .embedded table table td{border:none;}
+#main table .embedded #userdetails td{border:none;}
+table.mainouter td.outer #main{border-collapse:collapse;}
+#torrenttable{border:0px;}
+#torrenttable td{border:0px;background:url('pic/griiny/torrenttable.gif') repeat-x bottom;}
+#torrenttable .colhead , #main table .embedded #userdetails td #torrenttable .colhead{border-top: none;}
+
+select,input,textarea{width:auto;border:0;margin:2;padding:0;}
+
+/*Theme*/
+body{/*background:#746a51 url('pic/griiny/bg.jpg') repeat top center !important;*/
+background:#daedba url('pic/griiny/bg.jpg') repeat top center !important;
+
+}
+body,table, #torrenttable a{color:#324a07;}
+select,input,textarea{background:#e8f3d5;background:expression(this.type=='checkbox'||this.type=='radio'?'none':'#ebf3dd');}
+a{color:#324a07;text-decoration: underline text-underline-style:dotted}
+a:hover, td.navigation a:hover, #torrenttable a:hover{border-bottom:1px solid #8bcb1a;}
+#status a, td.navigation a{color:#433623;}
+/*#torrenttable td{border-bottom:3px solid #ff00f0;}*/
+#torrenttable td{border-bottom:3px solid #84c219;}
+#torrenttable a:hover{text-decoration:none;}
+#torrenttable td u{color:#67990f;}
+#torrenttable td.colhead{border:none;}
+#statusouter{background:url('pic/griiny/status-bg.png') repeat-x top center;}
+td#maintd{background:#84c219 url('pic/griiny/maintdbg.jpg') repeat-x bottom right;border-left:1px solid #7bb518;border-right:1px solid #7bb518;noPngFix:1;}
+#main td.colhead{color:#2c4405;}
+td.embedded{background:#d3e6b0 url('pic/griiny/cifra.gif') repeat-x bottom;}
+table#status, table#status font{color:#4c4849 !important; margin: 0px; padding: 0px;}
+.embedded h2{color:#ff000;}
+.embedded h2 span font{color:#54a300;}
+.btn{border:none !important;margin:5px 0;font-size:10px;text-transform:uppercase;font-weight:bold;font-family:verdana;background:url('pic/griiny/gomb-bg2.png') repeat-x !important;color:#233506 ;height:30px;cursor:pointer;width:92px;noPngFix:1;}
+* html .btn{}
+.btn:hover{color:white;}
+#premier td span ul li div a{color:#75644a;}
+#premier td span ul li b{color:#332c1c;}
+div#comments a.index{color:#2f4709;}
+p.sub a{color:#7a6d65 !important;}
+
+/*FRAME*/
+body,table{font-family:verdana,tahoma,sans-serif;font-size:10px;}
+h1,h2,h3,h4,h5{font-family:'arial',geneva,georgia;margin:0;padding:0;font-weight:bold;}
+h1{font-size:26px;}
+h2{font-size:18px;}
+h3{font-size:14px;}
+h4{font-size:12px;}
+h5{font-size:10px;}
+a{text-decoration: none; border-bottom:1px dotted #95db1d;}
+a:hover{text-decoration:underline;}
+
+
+font[color="#1f3003"]{color:#324a07;}
+* html font{color:expression(this.color=='#ff00c0'?'#324a07':this.color)}
+
+input[type="submit"],input[type="reset"]{background:url('pic/griiny/gomb-bg.png') repeat-x;color:#213205;border:1px solid #538007;padding:0 3px;}
+
+* html input{
+filter:expression((this.type=='submit'||this.type=='reset')?"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pic/griiny/gomb-bg.png', sizingMethod='scale')":"");
+color:expression((this.type=='submit'||this.type=='reset')?'#324a07':this.color);
+border:expression(this.type=='submit'||this.type=='reset'?'1px solid #365602 !important':this.border);
+/*padding:expression((this.type=='submit'||this.type=='reset')?'0 0px':this.padding);*/
+}
+
+
+
+#logo{height:50px;}
+#logoholderdiv{background:url('pic/griiny/logo.png') no-repeat bottom;width:372px;height:50px;}
+body p{margin:0;padding:0;}
+#statusouter{height:26px;}
+table.mainouter{padding:0;margin:0;background:url('pic/griiny/kosz.jpg') repeat-x center top;}
+table.mainouter td{padding:0;margin:0;}
+td#maintd{margin:0;padding:8px;}
+#torrenttable tr{height:37px;}
+#torrenttable td{padding:2px 5px 2px 5px;}
+#torrenttable td u{text-decoration:none;font-weight:bold;}
+#torrenttable td.colhead{font-weight:bold;text-transform:uppercase;background:url('pic/griiny/colhead.png') repeat-x bottom;noPngFix:1;}
+
+
+#main td.colhead{font-weight:bold;font-size:10px;}
+
+
+/*hozzaszolasok*/
+div#comments a.index{font-size:10px;font-family:tahoma;background:url('pic/griiny/gomb-bg2.png') no-repeat !important;height:32px;line-height:28px;width:92px;display:block;margin-top:20px;margin-bottom:20px;font-weight:bold;}
+div#comments a.index:hover{text-decoration:none;color:white;}
+div.comment{padding:5px;margin:10px 0px 10px 0px;background:#e9f2d8 url('pic/griiny/comm-bg.gif') repeat-x top left;border-bottom:1px solid #c6d9a3;}
+div.comment p.sub{height:20px;line-height:20px;}
+p.sub a:hover{text-decoration:none;}
+
+
+/*forum*/
+table#forum{margin-bottom:10px;}
+table#forum td{border-bottom:1px solid #7bb518;border-top:1px solid #8bcc1b;}
+table#forum td.embedded{background:#84c219;}
+table#forum td.embedded img{background:#8bcc1b;}
+table#icons{margin: 8px auto;}
+
+td#maintd table td{padding:3px;}
+td#maintd table td.heading{font-weight:bold;}
+table#menu{margin:0;padding:0;height:26px;}
+table#main{margin-bottom:40px;}
+#status .bottom .smallfont a{-moz-opacity:0.7;opacity:0.7;}
+#status .bottom .smallfont a:hover{-moz-opacity:1.0;opacity:1.0;}
+
+td.navigation a{display:block;width:100%;height:26px;line-height:20px;background:url('pic/griiny/menu-bg.png') repeat-x bottom center;border-bottom:1px solid #8bcb1a;noPngFix:1;}
+td.navigation a:hover{background:url('pic/griiny/menu-bg-a.png') no-repeat bottom center;text-decoration:none;}
+td.navigation{border-left:1px solid #84c219; border-right:1px solid #90d41c; padding-left:1px !important;padding-right:1px !important;}
+
+.embedded h2{padding-left:14px !important;font-family:verdana,tahoma,arial;font-size:11px;margin:1px 0;background:url('pic/griiny/hirek-bg.gif') repeat-x top left;line-height:5px;padding-top:21px;font-weight:bold;}
+.embedded h2 span select{margin-top:expression('6px');}
+td.text ul, #premier td span ul{margin:0 0 0 22px;padding:0;list-style-type:none;list-style-position:outside;list-style-image:url('pic/griiny/pont.gif')}
+#premier td span ul li div a{font-family:arial;font-size:10px;}
+#premier td span ul li div a:hover{padding-left:2px;}
+td.premiercat, td.premiercat table td{padding:0 !important;white-space:nowrap; text-align:center}
+td.premiercat a{display:block;font-size:10px !important;line-height:40px;width:92px;background:url('pic/griiny/hirek-bg.gif') repeat-x center top;text-decoration:none;}
+td.premiercat.selected a{font-weight:bold;color:#f56214;text-decoration:none;background:url('pic/griiny/premi-a.jpg') repeat-x center top;}
+td.text{text-align:justify;}
+textarea{width:450px;background:#e8f3d5 url('pic/griiny/text-bg.png') repeat-x bottom;}
+td.text ul li{padding-bottom:6px;padding-top:6px;}
+td.text ul li small{display:none;}
+
+
+#list .colhead {
+	padding: 0px;
+	margin: 0px;
+	background-image: url('pic/griiny/torrenttable.gif');
+	background-repeat: repeat-x; 
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#list .colhead span {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#list td {
+	background-image: url('pic/griiny/list-bg.gif');
+	background-repeat: repeat-x;
+	background-position: bottom; 
+}
+
+#main table .embedded #userdetails td {
+	border-bottom: 1px dotted #ccc;
+}
+
+
+/********************************************************/

@@ -1,0 +1,255 @@
+/*
+
+dark : #2b6d13
+light: #378a19
+
+*/
+
+body {
+	font-family: "tahoma", "arial", "helvetica", "sans-serif";
+	font-size: 8pt;
+background-color: #2b6d13;
+   background-color: #ECE9D8; 
+background-image: url(pic/tavasz_bck.gif);
+	/*background-attachment: fixed;*/
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+   background-color: #ECE9D8; 
+}
+
+table.main, table.mainouter {
+  background-color: #F5F4EA;/*#F4F4F0;*/
+  	background-image: url(pic/tavasz_bck02.gif);  
+	/*background-attachment: fixed;*/
+}
+
+table.bottom {
+  background: transparent;
+}
+
+h1 {
+  font-size: 12pt;
+}
+
+h2 {
+  font-size: 10pt;
+  margin-bottom: 6px;
+}
+
+p {
+	font-size: 8pt;
+}
+
+p.sub { 
+  margin-bottom: 4pt;
+}
+
+td {
+	font-size: 8pt;
+}
+
+table td table td {
+	border: solid #2b6d13 1px;
+} 
+
+td.embedded {
+   border: none;
+   padding: 0px;
+  text-align: left;
+}
+
+td.bottom {
+  border: none;
+}
+
+td.heading {
+  font-weight: bold;
+}
+
+td.text {
+  padding: 10pt;
+  text-align: left;
+}
+
+td.comment {
+  padding: 10pt;
+  font-size: 8pt;
+  text-align: left;
+}
+
+td.colhead {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2b6d13;
+    background-image: url(pic/tavasz_bck.gif);
+	/*background-attachment: fixed;*/
+}
+
+td.colhead a,td.colhead a:link,td.colhead a:visited{
+	color:white;
+}
+
+td.colhead a:hover{
+	color:Red;
+}
+
+
+td.rowhead {
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+
+td.title {
+	font-size: 14pt;
+}
+
+td.navigation {
+	font-weight: bold;
+	font-size: 10pt;
+   border: none;
+}
+
+td.clear {
+  padding: 0px;
+  border: 0px;
+  background: transparent;
+}
+
+form {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.sublink {
+	font-style: italic;
+	font-size: 7pt;
+	font-weight: normal;
+}
+
+font.gray
+{
+  color: #ACA899;
+  text-decoration: underline;
+}
+
+a:link, a:visited {
+  text-decoration: underline;
+  color: #000000;
+  /*font-weight: bold;*/
+}
+
+a:hover {
+  color: #FF0000;
+}
+
+a.index {
+	font-weight: bold;
+}
+
+a.biglink {
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+a:link.altlink, a:visited.altlink {
+	font-weight: bold;
+	color: #A83838;
+	text-decoration: none;
+}
+
+a:hover.altlink {
+  text-decoration: underline;
+}
+
+a:link.altlink_blue, a:visited.altlink_blue{
+	font-weight: bold;
+	color: #004E98;
+	text-decoration: none;
+}
+
+a:hover.altlink_blue {
+  text-decoration: underline;
+}
+
+a:link.altlink_green, a:visited.altlink_green{
+	font-weight: bold;
+	color: #007800;
+	text-decoration: none;
+}
+
+a:hover.altlink_green {
+  text-decoration: underline;
+}
+
+.important {
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.red {
+	color: #ee0000;
+}
+
+.yellow {
+	color: #997700;
+}
+
+.green {
+	color: #000000;
+}
+
+input, select, textarea {
+	font-family: "tahoma", "arial", "helvetica", "sans-serif";
+	font-size: 8pt;
+}
+
+.btn {
+  width: 75px;
+  height: 23px;
+}
+
+.small {
+  font-size: 7pt;
+}
+
+.big {
+  font-size: 10pt;
+}
+
+li {
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+}
+
+ul {
+  margin-left: 16pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+img.border  
+{  
+  border-style: solid;  
+  border-color: #000000; 
+  border-width: 1px; 
+}
+
+#logoholderdiv{
+	background-color: transparent;
+	background-image: url(pic/tavasz.jpg);
+	width:915px;	
+	height: 125px;
+	margin-bottom: 10px;
+	margin-top: 10px;	
+}
+
+#logoholderdiv img {
+	visibility:hidden;	
+}

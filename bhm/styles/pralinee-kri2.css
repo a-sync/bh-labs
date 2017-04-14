@@ -1,0 +1,439 @@
+@charset "iso-8859-2";
+/**
+ * Pralinee CSS for bitHUmen
+ * @version 1.1
+ * @author KRi2
+ * @best on FF3
+ */
+
+/*html{min-height:101%;}*/
+
+body {
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #c8bbb1;
+	background-image: url('pic/pralinee/logo.gif');
+	background-repeat: repeat-x;
+	background-position: top;
+	color: #422a19;
+	margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 0px;
+}
+
+table {
+  border: none;
+  border-collapse: collapse;
+  background-color:#c8bbb1;
+}
+
+table.main {
+  background-color:transparent;
+}
+
+table.mainouter {
+    background-image: url('pic/pralinee/menu-all-bg.gif');
+	background-repeat: repeat-x;
+	background-position: top;
+	margin: 0px;
+	padding: 0px;
+	position:relative;
+	top:-11px;
+}
+
+table.bottom {
+	background: transparent;
+}
+
+/* - LOGO -*/
+#logoholderdiv {
+	background-image: url('pic/pralinee/logo-txt.gif');
+	width:620px;
+	height: 28px;
+	margin-bottom: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+#logoholderdiv img {
+    visibility:hidden;
+	margin: 0px;
+	padding: 0px;
+	height: 26px;
+}
+
+
+
+/*- STATUS -*/
+#status{
+	background: transparent;
+  	margin: 0px;
+	padding: 0px;
+}
+#statusouter{
+	background:#5c2e1c;
+	margin:0px;
+	padding:0px;
+	background-image: url('pic/pralinee/status.gif');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+table#status, table#status font{color:#000 !important; margin: 0px; padding: 0px;}
+
+
+
+.outer {
+	background: transparent;
+	padding-top: 0px;
+	margin: 0px;
+	text-align: center;
+	background-image: url('pic/pralinee/bigyo.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+
+
+/* - MENU -*/
+#menu table {
+	background:#6a3824;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	height: 18px;
+}
+
+#menu td {
+	background-color: #6a3824;
+	font: 11px verdana;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	height: 18px;
+}
+
+#menu td a {
+	display: block;
+    color:#cfa292;
+	background-image: url('pic/pralinee/ful.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	border: none;
+	text-decoration: none;
+	padding: 6px 0px 2px 8px;
+}
+
+#menu td a:hover {
+	color:#ff7b10;
+	padding: 5px 0px 3px 8px;
+}
+
+/*-  TORRENTTABLE  -*/ 
+#torrenttable td {
+	background:#c8bbb1;
+	background-image: url('pic/pralinee/torrentbg2.gif');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+#torrenttable .colhead {
+	background:#b09c8a;
+	color:#3c2819;
+}
+
+
+/*-  FORUM  -*/
+
+#forum .colhead {
+	background:#b09c8a;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#forum .colhead span {
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #f0e8e3;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+
+#forum td {
+	background:#c4b7ad;
+	background-image: url('pic/pralinee/forumtopic-bg.gif');
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+#forum table td {
+	background-image: none;
+}
+
+
+
+
+h1 {
+  font-size: 18pt;
+  font-family:arial;
+  font-weight:bold;
+  margin-bottom: 8px;
+  letter-spacing: -1.8px
+}
+
+h2 {
+  font-size: 12pt;
+  font-family:arial;
+  margin-bottom: 0px;
+  letter-spacing: -0.6px
+}
+
+p {
+	font-size: 8pt;
+}
+
+p.sub { 
+  margin-bottom: 4pt;
+}
+
+td {
+	font-size: 8pt;
+}
+
+table td table td {
+	border: solid #85796f 1px;
+}
+
+td.embedded {
+   border: none;
+   padding: 0px;
+   text-align: left;
+}
+
+td.bottom {
+  border: none;
+  padding-right:1px;
+}
+
+td.heading {
+  font-weight: bold;
+}
+
+td.text {
+  padding: 10pt;
+  text-align: left;
+  background-image: url('pic/pralinee/tdtext-bg.png');
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+td.comment {
+  padding: 10pt;
+  font-size: 8pt;
+  text-align: left;
+  background-image: url('pic/pralinee/tdcomment-bg.gif');
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+td.colhead {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #B09C8A;
+}
+
+td.rowhead {
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+  background-image: url('pic/pralinee/rowhead.gif');
+  background-repeat: repeat-y;
+  background-position: left;
+}
+
+td.title {
+	font-size: 14pt;
+}
+
+td.navigation {
+	font-weight: bold;
+	font-size: 10pt;
+	border: none;
+}
+
+td.clear {
+  padding: 0px;
+  border: 0px;
+  background: transparent;
+}
+
+form {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.sublink {
+	font-style: italic;
+	font-size: 7pt;
+	font-weight: normal;
+}
+
+font.gray
+{
+  color: #ACA899;
+  text-decoration: underline;
+}
+
+.cati:link, .cati:visited {
+	border-bottom: none;
+	text-decoration:none;
+	padding:0px;
+	margin:0px;
+}
+
+.cati a:link, .cati a:visited {
+	border-bottom: none;
+	text-decoration:none;
+	padding:0px;
+	margin:0px;
+}
+
+a:link, a:visited {
+	color: #351e0d;
+	text-decoration:none;
+	border-bottom: 1px dotted #d55500;
+}
+
+a:link img, a:visited img {
+	color: #351e0d;
+	text-decoration:none;
+	border-bottom: none;
+}
+
+a:hover {
+	border-bottom: none;
+	text-decoration:underline;
+	color: #de4900;
+}
+
+a.index {
+	font-weight: bold;
+	text-decoration:none;
+	border-bottom: 1px dotted #f36e00;
+}
+
+a.biglink {
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+a.altlink:link, a.altlink:visited{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.altlink:hover {
+	text-decoration: underline;
+}
+
+a.altlink_blue:link, a.altlink_blue:visited{
+	font-weight: bold;
+	color: #b04949;
+	text-decoration: none;
+}
+
+a.altlink_blue:hover {
+  text-decoration: underline;
+}
+
+a.altlink_green:link, a.altlink_green:visited{
+	font-weight: bold;
+	color: #007800;
+	text-decoration: none;
+}
+
+a.altlink_green:hover {
+  text-decoration: underline;
+}
+
+.important {
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.red {
+	color: #ee0000;
+}
+
+.yellow {
+	color: #997700;
+}
+
+.green {
+	color: #646439;
+}
+
+input {
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+select, textarea {
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	background:#eee9e6;
+	border:0px;
+}
+
+.btn {
+  width: 75px;
+  height: 23px;
+}
+
+.small {
+  font-size: 7pt;
+}
+
+.big {
+  font-size: 10pt;
+}
+
+li {
+  margin-top: 3px;
+  padding-bottom: 5px;
+}
+
+ul {
+  margin: 0px 0px 0px 8px;
+}
+
+img.border  
+{  
+  border-style: solid;  
+  border-color: #333333; 
+  border-width: 1px;
+}
+
+
+iframe {
+	border: solid #484848 1px;
+}
+
+
+input[type="submit"],input[type="reset"]
+{background:url('pic/pralinee/gomb.gif') repeat-x;
+color:#d6c8bc;
+border:1px solid #b6957d;
+padding:0 3px;}
+
+* html input{
+filter:expression((this.type=='submit'||this.type=='reset')?"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pic/pralinee/gomb.gif', sizingMethod='scale')":"");
+color:expression((this.type=='submit'||this.type=='reset')?'#cbbfb5':this.color);
+border:expression(this.type=='submit'||this.type=='reset'?'1px solid #b6957d !important':this.border);
+}

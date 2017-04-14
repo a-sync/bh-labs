@@ -1,0 +1,2 @@
+Bocs srácok, vége a mókának..használjatok rss-t, vagy indítsatok saját könyvjelző szervert (fájlok a fórumban).
+Egyelőre szerver lelőve.

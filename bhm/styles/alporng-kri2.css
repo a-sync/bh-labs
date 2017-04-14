@@ -1,0 +1,487 @@
+/* AlphaOrange /v5/ CSS for bH by KRi2  :: compatible with FF/IE7/Opera (no IE6)  */
+
+/*html{min-height:101%;}*/
+
+body {
+	font: 12px tahoma;
+	background-color: #b0a99d;
+	background-image: url(pic/alphaorange/bg.gif);
+	background-position: top center;
+	color: #4a4a4a;
+	margin-top: 0px;
+	margin-bottom: 36px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+a {
+	color: #55442B;
+}
+
+a:hover {
+	color: #CC7A00;
+}
+
+table {
+	font: 10px verdana;
+	margin: 0px 0px 0px 0px;
+}
+
+select {
+	font: 10px verdana;
+	width: 150px;
+}
+
+input, textarea{
+	font: 10px verdana;
+}
+
+textarea {
+	padding: 2px 5px 0px 5px;
+}
+
+
+h1 {
+	font: 13px verdana;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+	color: #CC7A00;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font: 10px verdana;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul {
+	list-style-image: url(pic/alphaorange/list.gif);
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+li {
+	margin: 0px;
+}
+
+form {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* - LOGO -*/
+#logoholderdiv {
+	background-color: transparent;
+	background-image: url(pic/alphaorange/logo.png);
+	width:800px;
+	height: 55px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#logoholderdiv img {
+	visibility:hidden;
+}
+
+/* - STATUS -*/
+#status {
+	width: 100%;
+	background-image: url(pic/alphaorange/titlebar.png);
+	background-repeat: repeat-x;
+}
+#status span {
+	margin-left: 11px;
+	margin-right: 12px;
+	margin-top: 1px;
+	margin-bottom: 0px;
+	padding-right: 0px;
+	background-image: url(pic/alphaorange/statusbar-txtbg.png);
+	background-position: top right;
+}
+
+#statusouter {
+	background-image: url(pic/alphaorange/titlebar-alatt.png);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+}
+
+#statusouter td {
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 1px;
+	padding-top: 0px;
+}
+
+/* - OUTER -*/
+
+.outer {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+.mainouter {
+	width: 100%;
+	border: none;
+	margin: 0px;
+	padding: 0px 14px 0px 14px;
+}
+
+#canvas {
+	background-color: green;
+}
+
+/* - MENU -*/
+#menu table {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu td {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0px;
+	padding-left: 3px;
+	padding-right: 4px;
+
+}
+
+#menu td a {
+	display: block;
+	padding: 4px;
+	background-image: url(pic/alphaorange/ful.png);
+	background-position: top right;
+	border: none;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+
+#menu td a:hover {
+	background-image: url(pic/alphaorange/ful-on.png);
+	background-position: top right;
+}
+
+/* - MAIN - */
+
+#szethuzo {
+	width: 700px;
+}
+
+#main{
+	border-left:solid 1px #999999;
+	border-right:solid 1px #999999;
+	border-top:solid 1px #bab4a8;
+	text-align: center;
+	margin: 0px;
+	background-image: url(pic/alphaorange/tablebg.png);
+	background-position: bottom center;
+}
+
+#main #maintd {
+	padding: 5px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#main table {
+	background-image: url(pic/alphaorange/bg3.png);
+	background-position: bottom center;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main table td {
+	border: none;	
+	border: solid 1px #999999;	
+}
+
+#main table table {
+	background-image: none;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* index */
+
+#main table .embedded {
+	padding: 10px 0px 10px 0px;
+}
+
+#main table .embedded h2 {
+	background-image: url(pic/alphaorange/headerz.png);
+	background-repeat: no-repeat;
+	background-position: top right; 
+	padding: 0px;
+	margin: 0px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	width: 100%;
+}
+
+#main table .embedded h2 span {
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-top: 0px;
+	padding-right: 14px;
+	padding-left: 5px;
+	padding-top: 0px;
+	background-image: url(pic/alphaorange/head-titleful.gif);
+	background-position: top right;
+}
+
+#main table .embedded table {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#main table .embedded table td {
+	border: none;
+  border: solid 1px #999999;
+	background-image: url(pic/alphaorange/passz.png);
+	background-repeat: repeat-x;
+	background-position: bottom center;
+	padding: 0px 3px 10px 3px;
+	margin: 0px;
+}
+
+#main table .embedded table td .text {
+	padding: 5px;
+}
+
+#main table .embedded table table {
+	margin: 5px;
+}
+
+#main table .embedded table table td {
+	background-image: url(pic/alphaorange/comment.png);
+	background-position: top right;
+	background-repeat:repeat;
+	border: none;
+  border: solid 1px #999999;
+	padding: 0px;
+	padding-right: 3px;
+	margin: 5px;
+	padding-left: 3px;
+}
+
+
+.rowhead {
+	color: #3c2819;
+	font-weight: bold;
+}
+
+/* details */
+
+.heading {
+	font-weight: bold;
+}
+
+#list .colhead {
+	padding: 0px;
+	margin: 0px;
+	background-image: url(pic/alphaorange/sl-list-head.gif);
+	background-repeat: repeat-x; 
+	background-position: bottom center; 
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+#list .colhead span {
+	background: #f1f1f1;
+	margin-left: 5px;
+	margin-right: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#list td {
+        background-image: url(pic/alphaorange/sl-list.gif);
+	background-repeat: repeat-x;
+	background-position: bottom center; 
+}
+
+/* comments */
+
+#main #comments .embedded table td {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main #comments .embedded table td table td {
+	padding: 5px;
+	padding-left: 10px;
+}
+
+#main #comments .embedded table td #bottommargin {
+	padding-bottom: 10px;
+}
+
+.comment .sub {
+	padding: 0px;
+	margin: 0px;
+	background-image: url(pic/alphaorange/comment-header.png);
+	background-repeat: repeat;
+	background-position: top right; 
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.comment .sub span {
+	background-image: url(pic/alphaorange/comment-header-txt.png);
+	background-repeat: repeat;
+	background-position: top right;
+	margin-left: 6px;
+	margin-right: 10px;
+	padding-right: 14px;
+	padding-left: 4px;
+}
+
+.comment {
+	padding-bottom: 5px;
+	width: 100%;
+	background-image: url(pic/alphaorange/passz.png);
+	background-repeat: repeat-x;
+	background-position: bottom center; 
+}
+
+#main #comments .embedded table td table td #quote td {
+	padding: 5px;
+	margin: 0px;
+}
+
+#comments textarea {
+	background:#f0ede5;
+}
+
+/* forum */
+
+#ujtema {
+	margin-right: 10px;
+}
+
+#main #icons {
+	padding: 0px 10px 0px 10px;
+}
+
+#forum .colhead {
+	padding: 0px;
+	margin: 0px;
+	background-image: url(pic/alphaorange/forumheed.png);
+	background-position: top right;
+	background-repeat: repeat-x; 
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#forum .colhead span {
+	margin-left: 5px;
+	margin-right: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-image: url(pic/alphaorange/forumheed-txt.png);
+	background-position: top center;
+}
+
+#forum td {
+	padding-bottom: 5px;
+	background-image: url(pic/alphaorange/forum-topicbg.png);
+	background-repeat: repeat-x;
+	background-position: top center;
+}
+
+#forum table td {
+	background-image: none;
+}
+
+/* userdetails */
+
+#main table .embedded #userdetails td {
+	border: none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+
+#main table .embedded #userdetails td {
+	border: none;
+	background-image: url(pic/alphaorange/profile-elv.gif);
+	background-repeat: repeat-x;
+	background-position: bottom center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+
+/* - TORRENT TABLE - */
+
+#bottom table {
+	height: 80px;
+}
+
+#torrenttable {
+	border: 0px;
+}
+
+#torrenttable td {
+	border: 0px;
+  border: solid 1px #999999;	
+}
+
+#torrenttable td , #main table .embedded #userdetails td #torrenttable td {
+	background-image: url(pic/alphaorange/torrenttable-bg.png);
+	background-repeat: repeat-x;
+	background-position: top left;
+	margin: 0px;
+	padding: 0px;
+	height: 50px;	/*border-top: solid 1px #CCCCCC;*/
+}
+
+#torrenttable .colhead , #main table .embedded #userdetails td #torrenttable .colhead {
+	background-image: url(pic/alphaorange/torrenttable-headbg.png);
+	padding: 0px;
+	margin: 0px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	height: 10px;
+	border-top: none;
+}
+
+#torrenttable .colhead a, #main table .embedded #userdetails td #torrenttable .colhead span  {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-right: 4px;
+	padding-left: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 9px;
+	text-decoration: none;
+	background-image: url(pic/alphaorange/forumheed-txt.png);
+}
+
+#status .bottom .smallfont a{-moz-opacity:0.8;opacity:0.8;}
+#status .bottom .smallfont a:hover{-moz-opacity:1.0;opacity:1.0;}
+
+#premier td span ul li div a{font-family:arial;font-size:10px;}
+#premier td span ul li div a:hover{padding-left:2px;}
+td.premiercat, td.premiercat table td{padding:0 !important;white-space:nowrap; text-align:center}
+td.premiercat a{display:block;height:16px;font-size:10px !important;line-height:15px;width:90px;background:url('pic/alphaorange/prem-bg.gif') repeat-x top;text-decoration:none;}
+td.premiercat.selected a{font-weight:bold;color:white;text-decoration:none;background:url('pic/alphaorange/prem-bg-a.gif') repeat-x top;}

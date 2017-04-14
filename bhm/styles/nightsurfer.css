@@ -1,0 +1,418 @@
+/* NightSurfer */
+
+/* táblák */
+body {
+  font-family: "tahoma", "arial", "helvetica", "sans-serif";
+  font-size: 8pt;
+  background-color: #101010;
+  background-color: #303030;
+  color: #bababa;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /*background-image: url("pic/ns_bg.png");*/
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+  background-color: #303030;
+}
+
+table.main, table.mainouter {
+  background-color: #202020;
+}
+
+table.bottom {
+  background: transparent;
+}
+
+td {
+  font-size: 8pt;
+}
+
+table td table td {
+  border: solid #000000 1px;
+}
+
+td.embedded {
+  border: none;
+  padding: 0px;
+  text-align: left;
+}
+
+td.bottom {
+  border: none;
+}
+
+td.heading {
+  font-weight: bold;
+}
+
+td.text {
+  padding: 10pt;
+  text-align: left;
+}
+
+td.comment {
+  padding: 10pt;
+  font-size: 8pt;
+  text-align: left;
+}
+
+td.colhead {
+  font-weight: bold;
+  color: #bababa;
+  background-color: #101010;
+}
+
+td.rowhead {
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+
+td.title {
+  font-size: 14pt;
+}
+
+td.navigation {
+  font-weight: bold;
+  font-size: 10pt;
+  border: none;
+}
+
+td.clear {
+  padding: 0px;
+  border: 0px;
+  background: transparent;
+}
+
+#userdetails td.text {
+  background-color: #303030;
+}
+
+#quote {
+  border: 2px dashed #0090cf;
+  background-color: #303030;
+}
+
+#status span {
+  font-size: 8pt;
+}
+
+/* szavazás - polls.php-n nemfog */
+p table.mainouter tr td.outer table.bottom tr td.bottom table.main tr td.embedded table tr td table.main tr td.text table.main tr td {
+  padding: 1px;
+  background-color: #202020;
+  color: #bababa;
+}
+
+/* hiperlinkek */
+a:link, a:visited {
+  text-decoration: underline;
+  /*border-bottom: 1px solid #bababa;*/
+  color: #bababa;
+  /*font-weight: bold;*/
+}
+
+a:hover {
+  text-decoration: none;
+  /*border-bottom: 0; */
+  color: #0090cf;
+}
+
+td.navigation a:hover {
+  text-decoration: none;
+  border-bottom: 2px dotted #0090cf;
+  /*border-top: 2px dotted #0090cf;*/
+  color: #bababa;
+  font-weight: bold;
+}
+
+td.navigation a:active {
+  text-decoration: none;
+  color: #0090cf;
+  font-weight: bold;
+}
+
+a.index {
+  font-weight: bold;
+}
+
+a.biglink {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+a.altlink:link, a.altlink:visited {
+  font-weight: bold;
+  color: #a83838;
+  text-decoration: none;
+}
+
+a.altlink:hover {
+  text-decoration: underline;
+}
+
+a.altlink_blue:link, a.altlink_blue:visited {
+  font-weight: bold;
+  color: #3366ff;
+  text-decoration: none;
+}
+
+a.altlink_blue:hover {
+  text-decoration: underline;
+}
+
+a.altlink_green:link, a.altlink_green:visited {
+  font-weight: bold;
+  color: #10ab20;
+  text-decoration: none;
+}
+
+a.altlink_green:hover {
+  text-decoration: underline;
+}
+
+.sublink {
+  font-style: italic;
+  font-size: 7pt;
+  font-weight: normal;
+}
+
+/* szövegformázók */
+li {
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+}
+
+ul {
+  margin-left: 16pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 12pt;
+}
+
+h2 {
+  font-size: 10pt;
+  margin-bottom: 6px;
+}
+
+font.gray {
+  color: #303030;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 8pt;
+}
+
+p.sub { 
+  margin-bottom: 4pt;
+}
+
+.small {
+  font-size: 7pt;
+}
+
+.big {
+  font-size: 10pt;
+}
+
+.important {
+  font-weight: bold;
+  font-size: 8pt;
+}
+
+.red {
+  color: #ee0000;
+}
+
+.yellow {
+  color: #997700;
+}
+
+.green {
+  color: #000000;
+}
+
+/* formulák */
+input, select, textarea {
+  font-family: "tahoma", "arial", "helvetica", "sans-serif";
+  font-size: 8pt;
+  color: #bababa;
+  background-color: #101010;
+  border: 1px solid #404040;
+}
+
+form {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.btn {
+  width: 75px;
+  height: 23px;
+}
+
+/* képek */
+img {
+  border: 0;
+}
+
+img.border {  
+  border: 1px solid #404040;
+}
+
+#logoholderdiv {
+  background-color: transparent;
+  background-image: url('pic/ns_logo.png');
+  width: 405px;
+  height: 90px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+#logoholderdiv img {
+  visibility: hidden;
+}
+
+/*** css3 hackek modern bongészoknek ***/
+  /** Szövegszín változtatások **/
+  font[color*="#ff0000"] {
+    color: #ff4040;
+  }
+
+  font[color*="#ee0000"] {
+    color: #ee4040;
+  }
+
+  font[color*="#dd0000"] {
+    color: #dd4040;
+  }
+
+  font[color*="#cc0000"] {
+    color: #cc4040;
+  }
+
+  font[color*="#bb0000"] {
+    color: #bb4040;
+  }
+
+  font[color*="#aa0000"] {
+    color: #aa4040;
+  }
+
+  font[color*="#990000"] {
+    color: #994040;
+  }
+
+  font[color*="#880000"] {
+    color: #884040;
+  }
+
+  font[color*="#770000"] {
+    color: #774040;
+  }
+
+  font[color*="#660000"] {
+    color: #664040;
+  }
+
+* html font{color:expression(this.color=='#000000'?'#BABABA':this.color)}
+
+  font[color*="black"] {
+    color: #bababa;
+  }
+
+  font[color*="#000000"] {
+    color: #bababa;
+  }
+
+  font[color*="blue"] {
+    color: #3366ff;
+  }
+
+  font[color*="#1900d1"] {
+    color: #3366ff;
+  }
+
+  font[color*="green"] {
+    color: #10aa20;
+  }
+
+  font[color*="red"] {
+    color: #ff3a3a;
+  }
+
+  font[color*="darkred"] {
+    color: #ea2020;
+  }
+
+  table>tbody>tr>td.text>div.text>a>b>font[color*="#4040c0"] {
+    color: #6a9aff;
+  }
+
+  table>tbody>tr>td.text>div.text>a>b>font[color*="#ea4e00"] {
+    color: #ffaf40;
+  }
+
+  h2>a>font[color*="#cec1b5"] {
+    color: #303030;
+  }
+
+  td[style*="background-color: rgb(236, 233, 216);"] {
+    background: #303030;
+  }
+
+  table.main#list>tbody>tr[bgcolor*="#bbaf9b"] {
+    background-color: #303030;
+  }
+
+  /** Az oldal képei mérsékelten áttetszoek (pl.: szmájlik, kategória ikonok) **/
+  img[src*="pic/"] {
+    opacity: 0.9;
+  }
+
+  textarea {
+    width: 600px;
+    height: 250px;
+  }
+
+  td[bgcolor*="#ece9d8"] {
+    background-color: #202020;
+  }
+
+  /** Szerver terheltség méro háttere **/
+  td[style*="background-image: url(pic/loadbarbg.gif);"] {
+    background-image: url("pic/ns_loadbarbg.gif");
+    opacity: 0.7;
+  }
+
+  /** Szürke 'Olvasatlan' topik ikon **/
+  img[src="pic/unlockednew.gif"] {
+    width: 0;
+    height: 24px;
+    padding-left: 24px;
+    background-image: url("pic/ns_unlockednew.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+  }
+
+  /** Szürke 'Olvasott' topik ikon **/
+  img[src="pic/unlocked.gif"] {
+    width: 0;
+    height: 24px;
+    padding-left: 24px;
+    background-image: url("pic/ns_unlocked.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+  }
+
+/* "Minden föld bevetve, Minden no rendbe,
+    Na, ezt hagyom itt neked, Te csillag vagy fecske!" */

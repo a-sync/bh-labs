@@ -1,0 +1,9 @@
+bitHUmen Opensearch szabványú gyorskeresõ plugin
+-Google keresési javaslatokkal
+
+Kiválsztod azt az .xml fájlt amelyik neve, az általad használt címnek
+felel meg, és bemásolod a 'Mozilla Firefox\searchplugins\' mappába.
+(alap esetben: C:\Program Files\Mozilla Firefox\searchplugins\)
+Firefox restart és kész...
+
+-vec
